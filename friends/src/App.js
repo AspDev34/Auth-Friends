@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import LoginComp from './components/LoginComp';
 
 function App() {
   return (
     <div className="App">
-      HELLO WORLD 2
+      <LoginComp />
     </div>
   );
 }

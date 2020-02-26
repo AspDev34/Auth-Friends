@@ -26,7 +26,8 @@ login = (event) => {
     axios
         .post('http://localhost:5000/api/login', this.state.credentials) //sending the current login values of state to the api.
         .then(res => {
-            localStorage.setItem('token', res.data.payload);
+            console.log('API RESPONSE POST POST', res)
+            window.localStorage.setItem('token', res.data.payload);
             this.props.history.push('/protected')
         })
         .catch(err => console.log('Data not received', err));
