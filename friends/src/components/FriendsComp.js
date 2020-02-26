@@ -30,7 +30,7 @@ class FriendsComp extends React.Component {
                 ))}
             </div>
         )
-    }
+    };
 };
 
 export default FriendsComp;
