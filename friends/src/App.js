@@ -5,6 +5,7 @@ import FriendsComp from './components/FriendsComp';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import PrivateRoute from './components/PrivateRoute';
 
+//re-factored for web28
 function App() {
 
 
